@@ -1,0 +1,10 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# SSH Keys
+*.pem
+
+# VSCode
+.vscode/
