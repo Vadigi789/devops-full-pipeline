@@ -1,5 +1,5 @@
 variable "aws_region" {
-  default = "ap-south-1"
+  default = "ap-south-2"
 }
 
 variable "vpc_cidr" {
