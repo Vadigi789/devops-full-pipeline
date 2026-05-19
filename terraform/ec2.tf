@@ -11,7 +11,7 @@ resource "aws_instance" "bastion" {
   }
 }
 
-resource "aws_instance" "jenkins" {
+resource "aws_instance" "tools_server" {
   ami                    = var.ami_id
   instance_type          = var.instance_type
   subnet_id              = aws_subnet.private.id
